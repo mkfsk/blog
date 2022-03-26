@@ -1,0 +1,33 @@
+baseURL = ""
+languageCode = "en-us"
+title = "MKFSK Blog"
+theme = "anubis"
+paginate = 3
+googleAnalytics = "G-JZ0SXL4BJH"
+enableRobotsTXT = "true"
+
+[params]
+  dateFormat = "Jan 02, 2006"
+  author = "mkfsk"
+  style = "auto"
+  utterancesRepo = "mkfsk/comments"
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 3
